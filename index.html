@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Plus+Jakarta+Sans:wght@600&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
     <title>Damilola Emmanuel Bakare - Full-Stack Developer </title>
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="name">
             <h1>Damilola Emmanuel Bakare</h1>
             <p>Full-stack Developer</p>
             <nav>
@@ -30,13 +33,36 @@
         </div>
     </section>
 
-    <section id="about">
+    <section class="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I'm a passionate full-stack developer with a focus on creating meaningful and innovative web applications.</p>
+            <p>Welcome to my vibrant corner of the web! I'm Damilola Emmanuel Bakare, a highly motivated and results-driven full-stack web developer based in Lagos Nigeria. My journey in the world of web development began with a passion for turning creative ideas into powerful and functional digital experiences.</p>
+    
+            <p>With a keen eye for detail and a love for problem-solving, I specialize in crafting dynamic and responsive web applications that not only meet but exceed the expectations of users. My expertise extends across the entire development stack, from crafting elegant front-end interfaces to architecting robust back-end solutions.</p>
+    
+            <p>Whether it's bringing a sleek user interface to life using the latest front-end technologies like React.js or building scalable server-side applications with Node.js and Express.js, I am dedicated to delivering high-quality, efficient, and user-friendly solutions that make a positive impact.</p>
+    
+            <p>Beyond coding, I thrive in collaborative environments, where communication and teamwork are the keys to success. I constantly seek opportunities to learn and grow, staying updated with the ever-evolving landscape of web technologies to bring innovative solutions to the table.</p>
+    
+            <p>When I'm not immersed in coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee while brainstorming my next big idea. Let's embark on a journey together to build extraordinary digital experiences!</p>
         </div>
     </section>
 
+     <!--I am adding my skills-->
+     <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
 
     <section id="resume">
         <div class="container">
@@ -48,21 +74,18 @@
             </div>
         </div>
     </section>
-
-    <section id="contact">
+ 
+    <section class="contact">
         <div class="container">
-            <h2>Contact Me</h2>
+            <h2>Contact</h2>
             <form action="#" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
-
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Submit</button>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
             </form>
         </div>
     </section>
